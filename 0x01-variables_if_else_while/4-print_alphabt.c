@@ -15,7 +15,7 @@ ch_low = 'a';
 
 while (ch_low <= 'z')
 {
-if (ch_low != 'e' || ch_low != 'q')
+if (ch_low == 'e' || ch_low == 'q')
 {
 ch_low++;
 }
