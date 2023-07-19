@@ -15,7 +15,7 @@ number = 0;
 
 while (number <= 9)
 {
-printf("%i",number);
+printf("%i", number);
 number++;
 }
 
