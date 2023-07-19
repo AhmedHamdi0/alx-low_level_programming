@@ -11,7 +11,9 @@
 int main(void)
 {
 char ch_low;
+char ch_upper;
 ch_low = 'a';
+ch_upper = 'A';
 
 while (ch_low <= 'z')
 {
@@ -19,13 +21,12 @@ putchar(ch_low);
 ch_low++;
 }
 
-char ch_upper;
-ch_upper = 'A'; 
 while (ch_upper <= 'Z')
 {
 putchar(ch_upper);
 ch_upper++;
 }
+
 putchar('\n');
 return (0);
 }
