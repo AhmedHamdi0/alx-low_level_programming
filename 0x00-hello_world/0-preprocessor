@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Enter c file name: "
+read CFILE
+gcc -E ${CFILE}.c -o c 
