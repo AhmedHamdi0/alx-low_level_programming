@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Enter the content for README.md:"
+read content
+
+echo ${content} > README.md
+
+echo "README.md file created successfully."
+
