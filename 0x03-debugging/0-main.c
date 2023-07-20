@@ -7,16 +7,10 @@
 
 int main(void)
 {
-int i, j, k;
+int i;
 
-i = 40;
+i = 98 % 2;
 positive_or_negative(i);
-
-j = -56;
-positive_or_negative(j);
-
-k = 0;
-positive_or_negative(k);
 
 return (0);
 }
