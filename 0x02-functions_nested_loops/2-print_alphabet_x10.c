@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Prints the lowercase alphabet 10 times using _putchar
+ * print_alphabet_x10 - Prints the lowercase alphabet 10 times using _putchar
  *
  * Description: prints the lowercase alphabet from 'a' to 'z' 10 times.
  *
@@ -9,7 +9,7 @@
  */
 void print_alphabet_x10(void)
 {
-int i;	
+int i;
 for (i = 0; i < 10; i++)
 {
 char ch_low = 'a';
