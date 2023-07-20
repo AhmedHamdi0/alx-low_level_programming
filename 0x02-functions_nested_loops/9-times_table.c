@@ -23,7 +23,11 @@ _putchar((result % 10) + '0');
 }
 else
 {
+if (j != 0)
+{
 _putchar(' ');
+}
+
 _putchar(result + '0');
 }
 
@@ -38,3 +42,4 @@ _putchar('\n');
 }
 }
 
+ 
