@@ -12,11 +12,11 @@ int i, j, k;
 i = 40;
 positive_or_negative(i);
 
-i = -56;
-positive_or_negative(i);
+j = -56;
+positive_or_negative(j);
 
-i = 0;
-positive_or_negative(i);
+k = 0;
+positive_or_negative(k);
 
 return (0);
 }
