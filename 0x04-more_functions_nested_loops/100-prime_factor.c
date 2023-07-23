@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
 * main - finds and prints the largest prime factor of the number 612852475143.
 * Return: Always 0.
 */
@@ -23,6 +23,6 @@ factor++;
 }
 printf("%lu\n", num);
 
-return 0;
+return (0);
 }
 
