@@ -13,7 +13,7 @@ while (str[length])
 {
 length++;
 }
-
+length++;
 if (length % 2 == 0)
 {
 for (int i = length / 2; str[i] != '\0' ; i++)
