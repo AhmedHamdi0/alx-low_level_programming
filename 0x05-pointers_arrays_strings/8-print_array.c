@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
 * print_array - Prints the elements of an integer array.
 *
