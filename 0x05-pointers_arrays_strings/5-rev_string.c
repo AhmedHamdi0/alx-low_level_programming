@@ -15,8 +15,9 @@ while (s[length] != '\0')
 length++;
 }
 
-int start = 0;
-int end = length - 1;
+int start, end;
+start = 0;
+end = length - 1;
 
 while (start < end)
 {
