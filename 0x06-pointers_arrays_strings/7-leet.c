@@ -7,21 +7,24 @@
 
 char *leet(char *str)
 {
-	char encodes[8] = {'o', 'l', 'e', 'a', 't', 'O', 'L', 'E'};
-	char replacements[8] = {'0', '1', '3', '4', '7', '0', '1', '3'};
+	char *ptr = str;
+	char *leet_chars = "aAeEoOtTlL";
+	char *leet_replacements = "4433007711";
 
-	while (*str != '\0')
+	while (*ptr != '\0')
 	{
-		for (int i = 0; i < 8; i++)
+		char *leet_ptr = leet_chars;
+		while (*leet_ptr != '\0')
 		{
-			if (*str == encodes[i])
+			if (*ptr == *leet_ptr)
 			{
-				*str = replacements[i];
+				*ptr = leet_replacements[leet_ptr - leet_chars];
 				break;
 			}
+			leet_ptr++;
 		}
-		str++;
+		ptr++;
 	}
 
-	return (str);
+	return str;
 }
