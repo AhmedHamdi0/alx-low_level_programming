@@ -7,28 +7,27 @@
 
 char *cap_string(char *str)
 {
-	char *ptr = str;
-	int i;
+	int i, j;
 
-	if (*ptr >= 'a' && *ptr >= 'z')
-	{
-		*(ptr) = *(ptr) - 32;
-	}
+	char sperators[13] = {' ', '\t', '\n', ',', ';', '.',
+					'!', '?', '"', '(', ')', '{', '}'};
 
-	for (i = 0; *ptr; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (*ptr == ' ' || *ptr == '\t' || *ptr == '\n' || *ptr == ',' ||
-			*ptr == ';' || *ptr == '.' || *ptr == '!' || *ptr == '?' ||
-			*ptr == '"' || *ptr == '(' || *ptr == ')' || *ptr == '{' ||
-			*ptr == '}')
+		if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
+			str[i] -= 32;
+
+		for (j = 0; j < 13; j++)
 		{
-			if (*(ptr + 1) >= 'a' && *(ptr + 1) <= 'z')
+			if (str[i] == sperators[j])
 			{
-				*(ptr + 1) = *(ptr + 1) - 32;
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+				{
+					str[i + 1] -= 32;
+				}
 			}
 		}
-		ptr++;
 	}
 
-	return (str);
+	return (s);
 }
