@@ -7,12 +7,12 @@
 
 char *leet(char *str)
 {
-	char encodes[10] = {'o', 'l', 'e', 'a', 't', 'O', 'L', 'E', 'A', 'T'};
-	char replacements[10] = {'0', '1', '3', '4', '7', '0', '1', '3', '4', '7'};
+	char encodes[8] = {'o', 'l', 'e', 'a', 't', 'O', 'L', 'E'};
+	char replacements[8] = {'0', '1', '3', '4', '7', '0', '1', '3'};
 
 	while (*str != '\0')
 	{
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < 8; i++)
 		{
 			if (*str == encodes[i])
 			{
