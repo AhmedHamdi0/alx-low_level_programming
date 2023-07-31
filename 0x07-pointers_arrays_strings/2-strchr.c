@@ -1,5 +1,3 @@
-#define NULL ((void *)0)
-
 /**
  * _strchr - Locates the first occurrence of character c in string s.
  * @s: Pointer to the string to search.
@@ -17,5 +15,5 @@ char *_strchr(char *s, char c)
 		s++;
 	}
 
-	return NULL;
+	return ('\0');
 }
