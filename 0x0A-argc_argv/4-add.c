@@ -2,35 +2,28 @@
 #include <stdlib.h>
 
 /**
-* main - Entry point of the program
-* @argc: The number of command-line arguments
-* @argv: An array of pointers to the command-line arguments
-*
-* Return: 0 if addition is successful, 1 otherwise
-*/
+ * main - Entry point of the program
+ * @argc: The number of command-line arguments
+ * @argv: An array of pointers to the command-line arguments
+ *
+ * Return: 0 if addition is successful, 1 otherwise
+ */
 int main(int argc, char *argv[])
 {
-int i, sum = 0;
+int sum = 0;
+char *c;
 
-if (argc == 1)
+while (--argc)
 {
-printf("0\n");
-return (0);
-}
-
-for (i = 1; i < argc; i++)
+for (c = argv[argc];  *c; c++)
 {
-int num = atoi(argv[i]);
-
-if (num < '0' || num > '9')
+if (*c < '0' || *c > '9')
 {
-printf("Error\n");
-return (1);
+return (printf("Error\n"), 1);
 }
-
-sum += num;
 }
-
+sum += atoi(argv[argc]);
+}
 printf("%d\n", sum);
 return (0);
 }
