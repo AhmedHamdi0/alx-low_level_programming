@@ -13,26 +13,17 @@
 
 char *create_array(unsigned int size, char c)
 {
-unsigned int i;
-char *ptr
-
-if (size == 0)
-{
-return (NULL);
-}
-
+char *ptr;
 ptr = (char *)malloc(sizeof(char) * size);
 
-if (ptr == NULL)
+if (size == 0 || ptr == NULL)
 {
 return (NULL);
 }
-else
+
+while (size--)
 {
-for (i = 0; i < size; i++)
-{
-*(ptr + i) = c;
-}
+ptr[size] = c;
 }
 return (ptr);
 }
