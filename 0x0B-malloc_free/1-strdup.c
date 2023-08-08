@@ -9,34 +9,34 @@
  */
 char *_strdup(char *str)
 {
-char *ptr;
-int length = 0;
-int i;
+	char *ptr;
+	int length = 0;
+	int i;
 
-if (str == NULL)
-{
-return (NULL);
-}
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
-while (str[length] != '\0')
-{
-length++;
-}
+	while (str[length] != '\0')
+	{
+		length++;
+	}
 
-ptr = (char *)malloc(sizeof(char) * (length + 1));
+	ptr = (char *)malloc(sizeof(char) * (length + 1));
 
-if (ptr == NULL)
-{
-return (NULL);
-}
-else
-{
-for (i = 0; i < length; i++)
-{
-ptr[i] = str[i];
-}
-ptr[length] = '\0';
-}
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
+	else
+	{
+		for (i = 0; i < length; i++)
+		{
+			ptr[i] = str[i];
+		}
+		ptr[length] = '\0';
+	}
 
-return (ptr);
+	return (ptr);
 }
