@@ -55,6 +55,12 @@ build CMakeFiles/0x08_recursion.dir/main.c.o: C_COMPILER__0x08_recursion_Debug /
   OBJECT_DIR = CMakeFiles/0x08_recursion.dir
   OBJECT_FILE_DIR = CMakeFiles/0x08_recursion.dir
 
+build CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o: C_COMPILER__0x08_recursion_Debug /home/ahmedhamdi/A/ALX/alx-low_level_programming/0x08-recursion/0-puts_recursion.c || cmake_object_order_depends_target_0x08_recursion
+  DEP_FILE = CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x08_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x08_recursion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 0x08_recursion
@@ -63,7 +69,7 @@ build CMakeFiles/0x08_recursion.dir/main.c.o: C_COMPILER__0x08_recursion_Debug /
 #############################################
 # Link the executable 0x08_recursion
 
-build 0x08_recursion: C_EXECUTABLE_LINKER__0x08_recursion_Debug CMakeFiles/0x08_recursion.dir/main.c.o
+build 0x08_recursion: C_EXECUTABLE_LINKER__0x08_recursion_Debug CMakeFiles/0x08_recursion.dir/main.c.o CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/0x08_recursion.dir
   POST_BUILD = :

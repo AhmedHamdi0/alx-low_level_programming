@@ -1,0 +1,6 @@
+# ninja log v5
+0	52	1691609204729328540	CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o	8cdb66d307fbec1c
+2	52	1691609204729328540	CMakeFiles/0x08_recursion.dir/main.c.o	a9d4cb252b085ddc
+0	25	1691609326734059999	CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o	8cdb66d307fbec1c
+25	46	1691609326754060118	0x08_recursion	50edcc14466a1060
+1	23	1691609399562496614	CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o	8cdb66d307fbec1c

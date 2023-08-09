@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "main.h"
 
 int main() {
-	printf("Hello, World!\n");
+	_puts_recursion("Puts with recursion");
 	return 0;
 }
