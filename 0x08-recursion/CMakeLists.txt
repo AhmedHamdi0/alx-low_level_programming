@@ -3,4 +3,4 @@ project(0x08_recursion C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(0x08_recursion main.c main.h 0-puts_recursion.c)
+add_executable(0x08_recursion main.c main.h 0-puts_recursion.c 1-print_rev_recursion.c)
