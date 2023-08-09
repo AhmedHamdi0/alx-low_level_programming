@@ -103,6 +103,12 @@ build CMakeFiles/0x08_recursion.dir/100-is_palindrome.c.o: C_COMPILER__0x08_recu
   OBJECT_DIR = CMakeFiles/0x08_recursion.dir
   OBJECT_FILE_DIR = CMakeFiles/0x08_recursion.dir
 
+build CMakeFiles/0x08_recursion.dir/101-wildcmp.c.o: C_COMPILER__0x08_recursion_Debug /home/ahmedhamdi/A/ALX/alx-low_level_programming/0x08-recursion/101-wildcmp.c || cmake_object_order_depends_target_0x08_recursion
+  DEP_FILE = CMakeFiles/0x08_recursion.dir/101-wildcmp.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x08_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x08_recursion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 0x08_recursion
@@ -111,7 +117,7 @@ build CMakeFiles/0x08_recursion.dir/100-is_palindrome.c.o: C_COMPILER__0x08_recu
 #############################################
 # Link the executable 0x08_recursion
 
-build 0x08_recursion: C_EXECUTABLE_LINKER__0x08_recursion_Debug CMakeFiles/0x08_recursion.dir/main.c.o CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o CMakeFiles/0x08_recursion.dir/1-print_rev_recursion.c.o CMakeFiles/0x08_recursion.dir/2-strlen_recursion.c.o CMakeFiles/0x08_recursion.dir/3-factorial.c.o CMakeFiles/0x08_recursion.dir/4-pow_recursion.c.o CMakeFiles/0x08_recursion.dir/5-sqrt_recursion.c.o CMakeFiles/0x08_recursion.dir/6-is_prime_number.c.o CMakeFiles/0x08_recursion.dir/100-is_palindrome.c.o
+build 0x08_recursion: C_EXECUTABLE_LINKER__0x08_recursion_Debug CMakeFiles/0x08_recursion.dir/main.c.o CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o CMakeFiles/0x08_recursion.dir/1-print_rev_recursion.c.o CMakeFiles/0x08_recursion.dir/2-strlen_recursion.c.o CMakeFiles/0x08_recursion.dir/3-factorial.c.o CMakeFiles/0x08_recursion.dir/4-pow_recursion.c.o CMakeFiles/0x08_recursion.dir/5-sqrt_recursion.c.o CMakeFiles/0x08_recursion.dir/6-is_prime_number.c.o CMakeFiles/0x08_recursion.dir/100-is_palindrome.c.o CMakeFiles/0x08_recursion.dir/101-wildcmp.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/0x08_recursion.dir
   POST_BUILD = :
