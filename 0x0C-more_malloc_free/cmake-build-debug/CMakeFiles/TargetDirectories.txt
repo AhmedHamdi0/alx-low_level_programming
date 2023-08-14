@@ -1,0 +1,3 @@
+/home/ahmedhamdi/A/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/0x0C_more_malloc_free.dir
+/home/ahmedhamdi/A/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ahmedhamdi/A/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/rebuild_cache.dir
