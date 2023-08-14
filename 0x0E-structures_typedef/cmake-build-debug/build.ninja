@@ -55,6 +55,12 @@ build CMakeFiles/0x0E_structures_typedef.dir/main.c.o: C_COMPILER__0x0E_structur
   OBJECT_DIR = CMakeFiles/0x0E_structures_typedef.dir
   OBJECT_FILE_DIR = CMakeFiles/0x0E_structures_typedef.dir
 
+build CMakeFiles/0x0E_structures_typedef.dir/1-init_dog.c.o: C_COMPILER__0x0E_structures_typedef_Debug /home/ahmedhamdi/A/ALX/alx-low_level_programming/0x0E-structures_typedef/1-init_dog.c || cmake_object_order_depends_target_0x0E_structures_typedef
+  DEP_FILE = CMakeFiles/0x0E_structures_typedef.dir/1-init_dog.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x0E_structures_typedef.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x0E_structures_typedef.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 0x0E_structures_typedef
@@ -63,7 +69,7 @@ build CMakeFiles/0x0E_structures_typedef.dir/main.c.o: C_COMPILER__0x0E_structur
 #############################################
 # Link the executable 0x0E_structures_typedef
 
-build 0x0E_structures_typedef: C_EXECUTABLE_LINKER__0x0E_structures_typedef_Debug CMakeFiles/0x0E_structures_typedef.dir/main.c.o
+build 0x0E_structures_typedef: C_EXECUTABLE_LINKER__0x0E_structures_typedef_Debug CMakeFiles/0x0E_structures_typedef.dir/main.c.o CMakeFiles/0x0E_structures_typedef.dir/1-init_dog.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/0x0E_structures_typedef.dir
   POST_BUILD = :
