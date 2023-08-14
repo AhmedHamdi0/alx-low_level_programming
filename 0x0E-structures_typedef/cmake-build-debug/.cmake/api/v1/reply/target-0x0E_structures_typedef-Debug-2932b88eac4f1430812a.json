@@ -53,6 +53,7 @@
 			"sourceIndexes" : 
 			[
 				0,
+				2,
 				3,
 				4
 			]
@@ -88,6 +89,7 @@
 			"sourceIndexes" : 
 			[
 				0,
+				2,
 				3,
 				4
 			]
@@ -96,8 +98,7 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1,
-				2
+				1
 			]
 		}
 	],
@@ -108,11 +109,6 @@
 			"compileGroupIndex" : 0,
 			"path" : "main.c",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "main.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
@@ -129,6 +125,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "2-print_dog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "4-new_dog.c",
 			"sourceGroupIndex" : 0
 		}
 	],
