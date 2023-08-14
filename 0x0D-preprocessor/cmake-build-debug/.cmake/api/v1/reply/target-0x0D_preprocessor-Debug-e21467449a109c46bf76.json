@@ -96,7 +96,8 @@
 			[
 				1,
 				2,
-				4
+				4,
+				5
 			]
 		}
 	],
@@ -127,6 +128,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "3-function_like_macro.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "4-sum.h",
 			"sourceGroupIndex" : 1
 		}
 	],
