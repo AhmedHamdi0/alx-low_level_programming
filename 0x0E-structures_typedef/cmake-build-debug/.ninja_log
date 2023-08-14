@@ -3,3 +3,8 @@
 1	24	1692052574063265049	CMakeFiles/0x0E_structures_typedef.dir/main.c.o	371059fdc229d228
 24	44	1692052574079265151	0x0E_structures_typedef	fbee2e0554b5d3b3
 0	20	1692052574059265023	CMakeFiles/0x0E_structures_typedef.dir/1-init_dog.c.o	5b1f46ff10d349e6
+0	22	1692053324495850026	CMakeFiles/0x0E_structures_typedef.dir/1-init_dog.c.o	5b1f46ff10d349e6
+1	25	1692053324499850049	CMakeFiles/0x0E_structures_typedef.dir/2-print_dog.c.o	58445e92c81c5340
+1	25	1692053324499850049	CMakeFiles/0x0E_structures_typedef.dir/main.c.o	371059fdc229d228
+0	29	1692053352376019140	CMakeFiles/0x0E_structures_typedef.dir/4-new_dog.c.o	3fff0512fd58e8dd
+29	47	1692053352392019237	0x0E_structures_typedef	a379c25e2a352ac
