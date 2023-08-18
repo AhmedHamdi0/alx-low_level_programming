@@ -1,38 +1,43 @@
 #include <stdio.h>
-#include "function_pointers.h"
+#include <stdlib.h>
+#include "3-calc.h"
 
 /**
- * print_elem - prints an integer
- * @elem: the integer to print
+ * main - Entry point of the program.
+ * @argc: Number of arguments
+ * @argv: Array of arguments
  *
- * Return: Nothing.
+ * Return: 0 on success, appropriate exit code on error
  */
-void print_elem(int elem)
+int main(int argc, char *argv[])
 {
-	printf("%d\n", elem);
-}
+	int num1, num2, result;
+	int (*operation)(int, int);
 
-/**
- * print_elem_hex - prints an integer, in hexadecimal
- * @elem: the integer to print
- *
- * Return: Nothing.
- */
-void print_elem_hex(int elem)
-{
-	printf("0x%x\n", elem);
-}
+	if (argc != 4)
+	{
+		printf("Error\n");
+		return (98);
+	}
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	int array[5] = {0, 98, 402, 1024, 4096};
-	
-	array_iterator(array, 5, &print_elem);
-	array_iterator(array, 5, &print_elem_hex);
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[3]);
+	operation = get_op_func(argv[2]);
+
+	if (operation == NULL)
+	{
+		printf("Error\n");
+		return (99);
+	}
+
+	if ((*argv[2] == '/' || *argv[2] == '%') && num2 == 0)
+	{
+		printf("Error\n");
+		return (100);
+	}
+
+	result = operation(num1, num2);
+	printf("%d\n", result);
+
 	return (0);
 }
