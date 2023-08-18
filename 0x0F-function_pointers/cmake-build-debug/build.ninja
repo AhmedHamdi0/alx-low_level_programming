@@ -61,6 +61,12 @@ build CMakeFiles/0x0F_function_pointers.dir/0-print_name.c.o: C_COMPILER__0x0F_f
   OBJECT_DIR = CMakeFiles/0x0F_function_pointers.dir
   OBJECT_FILE_DIR = CMakeFiles/0x0F_function_pointers.dir
 
+build CMakeFiles/0x0F_function_pointers.dir/1-array_iterator.c.o: C_COMPILER__0x0F_function_pointers_Debug /home/ahmedhamdi/A/ALX/alx-low_level_programming/0x0F-function_pointers/1-array_iterator.c || cmake_object_order_depends_target_0x0F_function_pointers
+  DEP_FILE = CMakeFiles/0x0F_function_pointers.dir/1-array_iterator.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x0F_function_pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x0F_function_pointers.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 0x0F_function_pointers
@@ -69,7 +75,7 @@ build CMakeFiles/0x0F_function_pointers.dir/0-print_name.c.o: C_COMPILER__0x0F_f
 #############################################
 # Link the executable 0x0F_function_pointers
 
-build 0x0F_function_pointers: C_EXECUTABLE_LINKER__0x0F_function_pointers_Debug CMakeFiles/0x0F_function_pointers.dir/main.c.o CMakeFiles/0x0F_function_pointers.dir/0-print_name.c.o
+build 0x0F_function_pointers: C_EXECUTABLE_LINKER__0x0F_function_pointers_Debug CMakeFiles/0x0F_function_pointers.dir/main.c.o CMakeFiles/0x0F_function_pointers.dir/0-print_name.c.o CMakeFiles/0x0F_function_pointers.dir/1-array_iterator.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/0x0F_function_pointers.dir
   POST_BUILD = :
