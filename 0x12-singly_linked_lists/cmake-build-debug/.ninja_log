@@ -2,3 +2,9 @@
 0	42	1693248677652964326	CMakeFiles/0x12_singly_linked_lists.dir/main.c.o	c1227f7b469a4825
 42	62	1693248677668964413	0x12_singly_linked_lists	f7ba2d272325eef4
 1	38	1693248677648964306	CMakeFiles/0x12_singly_linked_lists.dir/0-print_list.c.o	37e492d2ca4cc288
+0	21	1693249574697833293	CMakeFiles/0x12_singly_linked_lists.dir/1-list_len.c.o	b4abf91a3d0efd21
+1	29	1693249574705833337	CMakeFiles/0x12_singly_linked_lists.dir/3-add_node_end.c.o	483575df8537ba39
+0	33	1693249574709833358	CMakeFiles/0x12_singly_linked_lists.dir/main.c.o	c1227f7b469a4825
+0	33	1693249574709833358	CMakeFiles/0x12_singly_linked_lists.dir/0-print_list.c.o	37e492d2ca4cc288
+0	37	1693249574713833380	CMakeFiles/0x12_singly_linked_lists.dir/2-add_node.c.o	1477f06e553b7e17
+37	55	1693249574729833467	0x12_singly_linked_lists	5603630b6a52d6f6
