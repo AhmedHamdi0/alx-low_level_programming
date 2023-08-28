@@ -1,13 +1,13 @@
 # ninja log v5
-1	32	1693255698058937850	CMakeFiles/0x13_more_singly_linked_lists.dir/1-listint_len.c.o	cb2f42f40e9c06d7
-2	33	1693255698058937850	CMakeFiles/0x13_more_singly_linked_lists.dir/3-add_nodeint_end.c.o	c7db7f3ea540cf58
-2	33	1693255698058937850	CMakeFiles/0x13_more_singly_linked_lists.dir/4-free_listint.c.o	42655ca2f64dd9b7
-1	36	1693255698062937871	CMakeFiles/0x13_more_singly_linked_lists.dir/0-print_listint.c.o	4663b2245ebff23c
-0	46	1693255698070937913	CMakeFiles/0x13_more_singly_linked_lists.dir/main.c.o	6e3112c9dfe05382
-1	46	1693255698070937913	CMakeFiles/0x13_more_singly_linked_lists.dir/2-add_nodeint.c.o	5a2f8393dc771b6d
-34	57	1693255698082937978	CMakeFiles/0x13_more_singly_linked_lists.dir/7-get_nodeint.c.o	518d96d9c3fe5bc
 36	58	1693255698082937978	CMakeFiles/0x13_more_singly_linked_lists.dir/8-sum_listint.c.o	1a1b812a34551c2a
-33	69	1693255698094938041	CMakeFiles/0x13_more_singly_linked_lists.dir/5-free_listint2.c.o	b62c1c4b2faa3c70
-33	69	1693255698094938041	CMakeFiles/0x13_more_singly_linked_lists.dir/6-pop_listint.c.o	4b07c0d63858040c
 46	72	1693255698098938063	CMakeFiles/0x13_more_singly_linked_lists.dir/9-insert_nodeint.c.o	1b07d26d38868026
+33	69	1693255698094938041	CMakeFiles/0x13_more_singly_linked_lists.dir/5-free_listint2.c.o	b62c1c4b2faa3c70
+2	33	1693255698058937850	CMakeFiles/0x13_more_singly_linked_lists.dir/4-free_listint.c.o	42655ca2f64dd9b7
+2	33	1693255698058937850	CMakeFiles/0x13_more_singly_linked_lists.dir/3-add_nodeint_end.c.o	c7db7f3ea540cf58
+34	57	1693255698082937978	CMakeFiles/0x13_more_singly_linked_lists.dir/7-get_nodeint.c.o	518d96d9c3fe5bc
+1	32	1693255698058937850	CMakeFiles/0x13_more_singly_linked_lists.dir/1-listint_len.c.o	cb2f42f40e9c06d7
+33	69	1693255698094938041	CMakeFiles/0x13_more_singly_linked_lists.dir/6-pop_listint.c.o	4b07c0d63858040c
 72	107	1693255698130938232	0x13_more_singly_linked_lists	e80c3676edc5caa7
+0	46	1693255698070937913	CMakeFiles/0x13_more_singly_linked_lists.dir/main.c.o	6e3112c9dfe05382
+1	36	1693255698062937871	CMakeFiles/0x13_more_singly_linked_lists.dir/0-print_listint.c.o	4663b2245ebff23c
+1	46	1693255698070937913	CMakeFiles/0x13_more_singly_linked_lists.dir/2-add_nodeint.c.o	5a2f8393dc771b6d
