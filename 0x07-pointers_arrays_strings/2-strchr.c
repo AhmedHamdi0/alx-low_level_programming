@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strchr - Locates the first occurrence of character c in string s.
  * @s: Pointer to the string to search.
