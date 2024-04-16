@@ -1,4 +1,6 @@
 #include "main.h"
+#include <unistd.h>
+#include <fcntl.h>
 
 /**
  * create_file - Creates a file with specified p
