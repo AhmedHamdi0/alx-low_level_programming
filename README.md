@@ -1,5 +1,7 @@
 # `alx Low Level Programming`
 
+# `Hello World`
+![Hello World](assets/0x00-hello_world.gif)
 
 # `Debugging`
 ![Debugging](assets/0x03.%20C%20-%20Debugging.jpg)
